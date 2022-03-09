@@ -2,11 +2,13 @@ import "./App.scss";
 import { useState } from "react";
 import Contact from "./components/contact/contact";
 import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/portfolio";
-import Testimonials from "./components/testimonials/testimonials";
+import Skills from "./components/skills/skills";
+import Certificates from "./components/certificates/certificates";
 import Topbar from "./components/topbar/topbar.jsx";
-import Works from "./components/works/works.jsx";
+import Education from "./components/education/education.jsx";
 import Menu from "./components/menu/Menu";
+import Description from "./components/description/description";
+import Conclusion from "./components/conclusion/conclusion";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,10 +20,14 @@ function App() {
       <Menu />
       <div className="sections">
         <Intro />
-        <Portfolio />
-        <Works />
-        <Testimonials />
+        <Description />
+        <Skills />
+        <Education />
+        <Certificates />
         <Contact />
+        <span className="conc">
+          <Conclusion />
+        </span>
       </div>
     </div>
   );

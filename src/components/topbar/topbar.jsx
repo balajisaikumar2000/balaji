@@ -1,5 +1,4 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,15 +6,32 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            logo
+            Balaji.io
+            {/* <img src="assets/balaji.io.png" alt="logo" height="60" /> */}
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+919182698988</span>
+            <a href="#portfolio">
+              <img src="assets/skills.png" alt="skills" />
+              <span>Skills</span>
+            </a>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>balaji.io</span>
+            <a href="#certificates">
+              <img src="assets/certificate.png" alt="certificate" />
+              <span>Certificates & Works</span>
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="#education">
+              <img src="assets/graduation-cap.png" alt="education" />
+              <span>Education</span>
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="#contact">
+              <img src="assets/email.png" alt="email" />
+              <span>Contact Me</span>
+            </a>
           </div>
         </div>
         <div className="right">

@@ -1,0 +1,65 @@
+@import "../../global.scss";
+
+.education {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @include mobile {
+    justify-content: space-around;
+  }
+  h1 {
+    font-size: 50px;
+    height: 15%;
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  .container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .card {
+      width: 70%;
+      // height: 40%;
+      border-radius: 10px;
+      background: linear-gradient(to left, #e73259, #ee826f);
+
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      transition: all 1s ease;
+      overflow: hidden;
+      @include mobile {
+        height: 180px;
+        overflow: hidden;
+        margin: 10px 0;
+        background: linear-gradient(to left, #e73259, #ee826f);
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+      }
+      h3{
+        font-size:120%;
+        @include mobile {
+          font-size:95%;
+        }
+      }
+    }
+  }
+}

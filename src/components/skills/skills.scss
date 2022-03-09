@@ -1,0 +1,94 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: white;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  flex-wrap: wrap;
+}
+
+.container > .element {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  margin-bottom: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 300px;
+  @include mobile {
+    width: 92%;
+  }
+}
+
+.progress-done {
+  background: linear-gradient(to left, #e73259, #ee826f);
+  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+
+.element {
+  display: flex;
+  width: 48%;
+  margin-left: 20px;
+  @include mobile {
+    width: 95%;
+  }
+}
+// .progressbar {
+//   flex: 0.5;
+//   margin: 10px;
+//   @include mobile {
+//     // width: 20%px;
+//     margin: 0px;
+//   }
+// }
+
+.header {
+  margin-top: 20px;
+  width: 15%;
+  @include mobile {
+    // width: 20%px;
+    margin-right: 5px;
+    width: 25%;
+    margin-left: 0px;
+  }
+}
+
+.pb {
+  @include mobile {
+    width: 80%;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
