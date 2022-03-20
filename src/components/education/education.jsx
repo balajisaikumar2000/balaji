@@ -14,7 +14,7 @@ export default function Education() {
       name: "Narayana Junior College, Kadapa  —Intermediate",
       year: "2017-2019",
       branch: "Maths,Physics,Chemistry",
-      Aggregate: "100%",
+      Aggregate: "96%",
     },
     {
       id: 3,
