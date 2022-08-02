@@ -19,7 +19,7 @@ export default function Education() {
     {
       id: 3,
       name: "Sree Shanthikethan E.M High School— SSC",
-      year: "2009-2016",
+      year: "2015-2016",
       Aggregate: "97%",
     },
   ];
