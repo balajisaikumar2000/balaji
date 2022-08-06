@@ -1,6 +1,11 @@
+import { useState } from "react";
 import "./education.scss";
-
+import BootstrapCarousel from "./BootstrapCarousel";
 export default function Education() {
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   const data = [
     {
       id: 1,
@@ -19,29 +24,36 @@ export default function Education() {
     {
       id: 3,
       name: "Sree Shanthikethan E.M High School— SSC",
-      year: "2009-2016",
+      year: "2015-2016",
       Aggregate: "97%",
     },
   ];
   return (
     <div className="education" id="education">
-      <h1>Education</h1>
-      <div className="container">
-        {data.map((d) => (
-          <div className="card">
-            <div className="bottom">
-              <h3>{d.name}</h3>
-              <p>
-                ❖<i>{d.year}</i>
-              </p>
-              <p>
-                ❖<b>Aggregate: </b>
-                <i>{d.Aggregate}</i>
-              </p>
-            </div>
-          </div>
-        ))}
+      <h1>Certifications</h1>
+      <div className="carousel-wrapper">
+        <BootstrapCarousel />
       </div>
     </div>
   );
+}
+
+// eslint-disable-next-line no-lone-blocks
+{
+  /* <div className="container">
+{data.map((d) => (
+  <div className="card">
+    <div className="bottom">
+      <h3>{d.name}</h3>
+      <p>
+        ❖<i>{d.year}</i>
+      </p>
+      <p>
+        ❖<b>Aggregate: </b>
+        <i>{d.Aggregate}</i>
+      </p>
+    </div>
+  </div>
+))}
+</div> */
 }

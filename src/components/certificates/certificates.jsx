@@ -48,31 +48,19 @@ export default function Certificates() {
           </a>
         </div>
       </div>
-      <h1>Certificates</h1>
+      <h1>Achievements</h1>
       <div className="credCertificates">
         <div className="certificate">
-          <p>
-            ❖ Front-end development with React
-            <i className="platform">---Coursera</i>
-          </p>
+          <p>❖ Developed a Quiz Application as a part of college event</p>
         </div>
         <div className="certificate">
-          <p>
-            ❖ Sever-Side Development with NodeJS, Express and MongoDB
-            <i className="platform">---Coursera</i>
-          </p>
+          <p>❖ Certified from microsoft in Python with 83%</p>
         </div>
         <div className="certificate">
-          <p>
-            ❖ Front-end Web UI FrameWorks and Tools: Bootstrap
-            <i className="platform">---Coursera</i>
-          </p>
+          <p>❖ Led a internship project among 15 people</p>
         </div>
         <div className="certificate">
-          <p>
-            ❖ The Complete JavaScript Course 2022: From Zero to Expert
-            <i className="platform">---Udemy</i>
-          </p>
+          <p>❖Got selected to a internship among 200 participants</p>
         </div>
       </div>
     </div>

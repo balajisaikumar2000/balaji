@@ -18,13 +18,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className="itemContainer">
             <a href="#certificates">
               <img src="assets/certificate.png" alt="certificate" />
-              <span>Certificates & Works</span>
+              <span>Works & Achievements</span>
             </a>
           </div>
           <div className="itemContainer">
             <a href="#education">
               <img src="assets/graduation-cap.png" alt="education" />
-              <span>Education</span>
+              <span>Certications</span>
             </a>
           </div>
           <div className="itemContainer">
