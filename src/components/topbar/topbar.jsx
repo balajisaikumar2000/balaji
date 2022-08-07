@@ -6,7 +6,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Balaji.io
+            <h2>Balaji</h2>
             {/* <img src="assets/balaji.io.png" alt="logo" height="60" /> */}
           </a>
           <div className="itemContainer">
@@ -16,15 +16,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             </a>
           </div>
           <div className="itemContainer">
-            <a href="#certificates">
-              <img src="assets/certificate.png" alt="certificate" />
-              <span>Works & Achievements</span>
-            </a>
-          </div>
-          <div className="itemContainer">
             <a href="#education">
               <img src="assets/graduation-cap.png" alt="education" />
               <span>Certications</span>
+            </a>
+          </div>
+          <div className="itemContainer">
+            <a href="#certificates">
+              <img src="assets/certificate.png" alt="certificate" />
+              <span>Works & Achievements</span>
             </a>
           </div>
           <div className="itemContainer">
