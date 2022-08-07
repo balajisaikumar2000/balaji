@@ -61,12 +61,12 @@ export default function Certificates() {
           </div>
         </div>
         <div class="course">
-          <img src="assets/jsArray.png" alt="asuhcdb" className="contImg" />
+          <img src="assets/p3.png" alt="asuhcdb" className="contImg" />
           <div class="course-info">
-            <h2>JavaScript Array </h2>
+            <h2>Shortest Way </h2>
             <span className="arrow">
               <a
-                href="https://medium.com/@balajisaikumar3/javascript-array-methods-8a2535722044"
+                href="https://shortestway.herokuapp.com/"
                 className="arrowLink"
               >
                 <img src="assets/arrow-right.png" alt="right-arrow" />
