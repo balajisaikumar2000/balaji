@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./education.scss";
 import BootstrapCarousel from "./BootstrapCarousel";
 export default function Education() {
