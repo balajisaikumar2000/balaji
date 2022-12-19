@@ -41,7 +41,7 @@ export default function Certificates() {
             <h2>Quiz App </h2>
             <span className="arrow">
               <a
-                href="https://rhapsody-pop-quiz.herokuapp.com/"
+                href="https://rhapsody-quiz-app.netlify.app/"
                 className="arrowLink"
               >
                 <img src="assets/arrow-right.png" alt="right-arrow" />
@@ -54,7 +54,7 @@ export default function Certificates() {
           <div class="course-info">
             <h2>restaurant recommender </h2>
             <span className="arrow">
-              <a href="https://wisechoice.herokuapp.com/" className="arrowLink">
+              <a href="https://restaurants-near.netlify.app/" className="arrowLink">
                 <img src="assets/arrow-right.png" alt="right-arrow" />
               </a>
             </span>
@@ -66,7 +66,7 @@ export default function Certificates() {
             <h2>Shortest Way </h2>
             <span className="arrow">
               <a
-                href="https://shortestway.herokuapp.com/"
+                href="https://shortest-way-finder.netlify.app/"
                 className="arrowLink"
               >
                 <img src="assets/arrow-right.png" alt="right-arrow" />
